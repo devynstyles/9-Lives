@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Black Cat: 9 Lives (Dev)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+  <style>
+    html,body{margin:0;height:100%;background:#070016;overflow:hidden}
+    canvas{display:block;margin:auto;image-rendering:pixelated;background:#000}
+    #ui{position:fixed;left:8px;top:8px;color:#fff;font:14px/1.2 monospace;text-shadow:0 0 6px #000}
+  </style>
+</head>
+<body>
+  <canvas id="c" width="960" height="540"></canvas>
+  <div id="ui"></div>
+
+  <!-- For dev readability; build.py will inline main.js into dist -->
+  <script src="./main.js"></script>
+</body>
+</html>
